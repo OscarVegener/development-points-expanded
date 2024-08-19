@@ -561,7 +561,7 @@ guiTypes = {
 			name = "province_window"
 			backGround=""
 			position = { x=0 y=0 }
-			size = { x=475 y=480 }
+			size = { x=575 y=480 }
 			dontRender = ""
 			horizontalBorder= ""
 			verticalBorder= ""
@@ -570,7 +570,9 @@ guiTypes = {
 			Orientation = "UPPER_LEFT"
 
 			### Core
-
+			
+			
+			
 
 			iconType =
 			{
@@ -907,8 +909,6 @@ guiTypes = {
 				buttonFont = "vic_18"
 				Orientation = "UPPER_LEFT"
 			}
-
-
 
 			### INCOME
 
@@ -2503,6 +2503,8 @@ guiTypes = {
 				moveable = 0
 				Orientation = "UPPER_LEFT"
 
+				
+				
 
 				iconType =
 				{
@@ -2677,6 +2679,209 @@ guiTypes = {
 				position = { x=478 y=144}
 				quadTextureSprite ="GFX_build_interface_building_tab"
 			}
+			
+			guiButtonType = {
+				name ="TGE_base_button"
+				position = { x= 449 y = 60 }
+				spriteType = "GFX_TGE_base_button"
+				scripted = yes
+			}
+			
+			iconType =
+			{
+				name ="provinceview_TGE_bg"
+				spriteType ="GFX_provinceview_TGE_bg"
+				position = { x= 10 y = 88 } ###  x= 486 y = 55
+				scripted = yes
+			}
+			
+			instantTextBoxType = {
+				name = "TGE_name"
+				position = { x = 15 y = 100 }
+				font = "vic_22"
+				scripted = yes
+		    }
+			
+			guiButtonType = {
+				name ="close_TGE"
+				position = { x= 180 y = 340 }
+				spriteType = "GFX_close_TGE"
+				clicksound = close_window
+				scripted = yes
+			}
+			
+			instantTextBoxType = {
+				name = "TGE_Goods_name_pr"
+				position = { x = 17 y = 127 }
+				font = "vic_18"
+				scripted = yes
+		    }
+			
+			iconType =
+			{
+				name ="TGE_backgr"
+				spriteType ="GFX_TGE_backgr"
+				position = { x= 23 y = 150 } 
+				scripted = yes
+			}
+			
+			iconType =
+			{
+				name ="TGE_Resource"
+				spriteType ="GFX_resource_icon"
+				position = { x= 24 y = 150 } 
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name ="TGE_upgrade_pr"
+				position = { x= 68 y = 217 }
+				spriteType = "GFX_TGE_upgrade"
+				clicksound = ok_click
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name ="TGE_destroy_pr"
+				position = { x= 24 y = 217 }
+				spriteType = "GFX_TGE_destroy"
+				clicksound = ok_click
+				scripted = yes
+			}
+			
+			instantTextBoxType = {
+				name = "TGE_Infrastructure_name_pr"
+				position = { x = 265 y = 127 }
+				font = "vic_18"
+				borderSize = {x = 4 y = 4}
+				scripted = yes
+		    }
+			
+			instantTextBoxType = {
+				name = "TGE_Infrastructure_terrain_pr"
+				position = { x = 352 y = 147 }
+				font = "vic_18s"
+				borderSize = {x = 4 y = 4}
+				scripted = yes
+		    }
+			
+			instantTextBoxType = {
+				name = "TGE_Infrastructure_climate_pr"
+				position = { x = 352 y = 163 }
+				font = "vic_18s"
+				borderSize = {x = 4 y = 4}
+				scripted = yes
+		    }
+			
+			instantTextBoxType = {
+				name = "TGE_Infrastructure_winter_pr"
+				position = { x = 352 y = 179 }
+				font = "vic_18s"
+				borderSize = {x = 4 y = 4}
+				scripted = yes
+		    }
+			
+			instantTextBoxType = {
+				name = "TGE_Infrastructure_type_pr"
+				position = { x = 352 y = 196 }
+				font = "vic_18s"
+				borderSize = {x = 4 y = 4}
+				scripted = yes
+		    }
+			
+			
+			
+			guiButtonType = {
+				name ="TGE_Infrastructure"
+				position = { x= 270 y = 150 }
+				spriteType = "GFX_TGE_Rural_Infrastructure"
+				clicksound = ok_click
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name ="TGE_Infrastructure_MED"
+				position = { x= 270 y = 150 }
+				spriteType = "GFX_TGE_Infrastructure_MED"
+				clicksound = ok_click
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name ="TGE_Infrastructure_mine"
+				position = { x= 270 y = 150 }
+				spriteType = "GFX_TGE_Mining_Infrastructure"
+				clicksound = ok_click
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name ="TGE_Infrastructure_urban"
+				position = { x= 270 y = 150 }
+				spriteType = "GFX_TGE_Infrastructure_urban"
+				clicksound = ok_click
+				scripted = yes
+			}
+			
+			
+			
+			iconType =
+			{
+				name ="TGE_window_bg"
+				spriteType ="GFX_TGE_window_bg"
+				position = { x= 30 y = 230 } 
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name ="TGE_slot_1"
+				position = { x= 48 y = 245 }
+				spriteType = "GFX_resource_icon"
+				clicksound = ok_click
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name ="TGE_slot_2"
+				position = { x= 112 y = 245 }
+				spriteType = "GFX_resource_icon"
+				clicksound = ok_click
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name ="TGE_slot_3"
+				position = { x= 176 y = 245 }
+				spriteType = "GFX_resource_icon"
+				clicksound = ok_click
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name ="TGE_slot_4"
+				position = { x= 240 y = 245 }
+				spriteType = "GFX_resource_icon"
+				clicksound = ok_click
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name ="TGE_slot_5"
+				position = { x= 304 y = 245 }
+				spriteType = "GFX_resource_icon"
+				clicksound = ok_click
+				scripted = yes
+			}
+			
+			guiButtonType = {
+				name ="TGE_main_close_button"
+				position = { x= 438 y = 225 }
+				spriteType = "GFX_TGE_main_close_button"
+				clicksound = close_window
+				scripted = yes
+			}
+			
+			
 		}
 
 
@@ -3913,6 +4118,7 @@ guiTypes = {
 			fullScreen = no
 			moveable = 0
 			Orientation = "UPPER_LEFT"
+			
 
 			iconType =
 			{
@@ -3920,6 +4126,7 @@ guiTypes = {
 				spriteType = "GFX_provinceview_institutions_bg"
 				position = { x= 15 y = 122 }
 			}
+			
 
 			instantTextBoxType = {
 				name = "header_label"
@@ -6734,6 +6941,7 @@ guiTypes = {
 			maxHeight = 18
 			text = "2000¤"
 		}
+
 	}
 
 	windowType =
