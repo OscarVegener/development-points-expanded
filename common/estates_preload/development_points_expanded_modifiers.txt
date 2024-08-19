@@ -1,0 +1,44 @@
+estate_special = {
+  modifier_definition = {
+		type = privileges
+		key = base_local_dev_points
+		trigger = {
+			always = yes
+		}
+	}
+	modifier_definition = {
+		type = privileges
+		key = max_dev_points
+		trigger = {
+			always = yes
+		}
+	}
+	modifier_definition = {
+		type = loyalty
+		key = local_dev_points_modifier
+		trigger = {
+			always = yes
+		}
+	}
+	modifier_definition = {
+		type = loyalty
+		key = country_dev_points_modifier
+		trigger = {
+			always = yes
+		}
+	}
+	modifier_definition = {
+		type = privileges
+		key = base_dev_points
+		trigger = {
+			always = yes
+		}
+	}
+	modifier_definition = {
+		type = loyalty
+		key = dev_points_from_subjects_modifier
+		trigger = {
+			always = yes
+		}
+	}
+}

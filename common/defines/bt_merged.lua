@@ -1,6 +1,5 @@
 NDefines.NCountry.BASE_POWER_INCREASE = 2 						-- BT changed from 3 for dev points
 NDefines.NCountry.ADVISOR_COST_INCREASE_PER_YEAR = 0.01
-NDefines.NEconomy.MAX_BUILDING_SLOTS = 16						-- from 12
 NDefines.NDiplomacy.AE_ATTACKER_DEVELOPMENT = 0.008			-- from 0.01
 NDefines.NDiplomacy.AE_DEFENDER_DEVELOPMENT = 0.008			-- from 0.01
 NDefines.NDiplomacy.AUTONOMY_WARSCORE_COST_MODIFIER = 0.75		-- from 0.33
