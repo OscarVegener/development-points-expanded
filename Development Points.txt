@@ -1,0 +1,67 @@
+This is just the discription for the workshop incase I lose it...
+
+
+
+[h1]Development Points (Dev Points)[/h1]
+
+The aim of this mod is to rework the vanilla development system. However, unlike most of the other mods that attempt this, one of the main goals of Development Points is to keep control in the player's hands.
+
+[h3]The core of the mod:[/h3]
+- Each of your provinces will generate Development Points, this is mainly based on the buildings built in them and then these base values are modified by factors like prosperity, devastation or autonomy.
+- Also all subject nations will give their overlord +20% of their Development Points.
+- These Development Points will then be added to a countrywide pool of Development Points which can be spent in any province to increase the development there. This pool will increase with Administrative technology
+- if a nation goes over the limit it will be spent automatically using a weighted system for better provinces, so there is no need worry if you are making a lot of Development Points.
+- The mod also features the once standalone 'More Buildings' mod, so there are more than twice the vanilla amount of buildings.
+- There are also new toggleable buttons in the court window for you to spend your extra Monarch Points on.
+- Actual values for all the modifiers and buildings are in the file "README" in the main mod file.
+
+[h3]Benefits of this system:[/h3]
+- Monarch Points are no longer used for developing:
+This allows nations outside of Europe to actually develop as in vanilla those nations chose to keep up in tech rather than developing their nations, many nations that would fall behind in development are now able to see their nations still grow.
+This has been balanced with a -1 to the base monarch point growth that all nations have, as well as increasing advisor costs going up over time.
+
+- A greater potential for roleplay:
+Controlling a trade company region or having large colonial nations will give your nation more development points, then these can be reinvested into your own nation or into the colonies and trade companies. Also, investing in a richer part of your nation could help you to develop the poorer parts of it. Alternatively you could set up your poorer parts of the nation to be Development Points generators and then extract the Development Points from them, refusing to reinvest in those provinces.
+
+- Smaller nations can't grow unrealistically large and large nations aren't unrealistically barren:
+Smaller nations generate a lot more Monarch Points so they would be able to become tall nations easily; this resulted in 40-50 development OPMs in the HRE in the late game. Equally larger nations would be rather barren in terms of per province development; in vanilla a nation like the Ottomans cannot develop all of the Balkans and Anatolia with Monarch Points.
+Both of these issues are solved with Development Points because the larger nations get lots more Development Points than the Monarch Points they had before, and the smaller nations put as many Development Points as they could with Monarch Points.
+
+- Expansionist nations still don't develop fast:
+Nations that are being expansionist will not get as many Development Points as one growing through peaceful means this is due to a lot of harsh modifiers which will slow Development Point gain that come from war. Such as low manpower, autonomy, overextension, devastation, corruption, war exhaustion, not having prosperity, lack of money to build buildings and over governing capacity. So this mod should not create a larger imbalance between the smaller and larger nations than before.
+
+[h3]New modifiers:[/h3]
+Development Points - Locally generated Development Points
+Local Development Points - Modifier for Locally generated Development Points
+Monthly Development Points - Modifier for the total of Monthly Development Points
+Development Points from Subjects - Modifier for the total of Development Points from Subjects
+Maximum Development Points - The Maximum Development Points that can be stored
+
+[h3]List of changes not mentioned elsewhere:[/h3]
+- Ideas changed to add Development Point modifiers
+- Autonomy increases if province is being sieged or occupied
+- New world provinces give Development Points to help colonial nations
+- This works for the AI and the player alike
+- AI will simulate expanding infrastructure in their provinces
+
+[h3]Known Issues:[/h3]
+- Nations need to have the cost of developing a province in the relevant mana point. Unfortunately this cannot be solved as this is something vanilla doesn't allow to be disabled.
+- Loading the game from a quicksave shows the usually hidden event that handles the monthly ticks. Unfortunately this cannot be solved as this is a vanilla bug.
+- Currently in MP if an overlord and their subject are player controlled the overlord cannot develop the player subject's lands.
+
+[h3]Incompatabilities:[/h3]
+This mod will be incompatible with any mod that changes the tech files, generic idea files, UI files or the development system.
+
+[h3]Debug event - dev_points.99[/h3]
+This event has several helpful options, mainly for modders, and options to add Development Points to the current tag.
+
+[h3]Credits and Special Thanks:[/h3]
+- Harbivore (Creator)
+- Dub for helping with ideas and balance also for creating the 'More Buildings' mod
+- Jackkade, Guiscard and others in the BT discord who helped with ideas
+- BT's Beta Testers for helping me catch any errors and gameplay issues
+- People over at the EU4 Mod Coop for helping with code issues and such
+
+[h3]A link to Beyond Typus where the system can fully spread it's wings:[/h3]
+The BT discord is also the best place to find me :)
+https://steamcommunity.com/sharedfiles/filedetails/?id=2656711777
