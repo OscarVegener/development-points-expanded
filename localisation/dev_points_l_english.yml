@@ -236,3 +236,6 @@
  
  current_dev_points: "Development Points"
  
+ #Edict
+ encourage_development_points_generation: "Encourage Development Points Generation"
+ 
