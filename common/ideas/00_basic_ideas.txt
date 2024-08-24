@@ -42,6 +42,7 @@ aristocracy_ideas = {
 	international_nobility = {
 		diplomats = 1
 		general_cost = -0.1
+		art_selling_efficiency = 0.25
 	}
 	rightful_conquest = {
 		fabricate_claims_cost = -0.5
@@ -103,6 +104,7 @@ plutocracy_ideas = {
 	tradition_of_payment = {
 		mercenary_cost = -0.2
 		global_regiment_cost = -0.05
+		art_selling_efficiency = 0.33
 	}
 	abolished_serfdom = {
 		land_morale = 0.10
@@ -311,6 +313,7 @@ innovativeness_ideas = {
 
 	patron_of_art  = {
 		prestige_decay = -0.01
+		art_selling_efficiency = 0.33
 	}
 	empiricism = {
 		innovativeness_gain = 0.5
@@ -546,6 +549,7 @@ diplomatic_ideas = {
 	}
 	flexible_negotiation = {
 		province_warscore_cost = -0.2
+		art_selling_efficiency = 0.1
 	}
 	diplomatic_corps = {
 		dip_tech_cost_modifier = -0.1
@@ -817,6 +821,7 @@ trade_ideas = {
 		burghers_loyalty_modifier = 0.1
 		jains_loyalty_modifier = 0.1
 		vaisyas_loyalty_modifier = 0.1
+		monthly_naval_professionalism_power = 0.05
 	}
 
 	shrewd_commerce_practise = {
@@ -840,6 +845,7 @@ trade_ideas = {
 	}
 	fast_negotiations = {
 		caravan_power = 0.25
+		art_selling_efficiency = 0.2
 	}
 
 	ai_will_do = {
@@ -896,6 +902,7 @@ economic_ideas = {
 	}
 	merchant_passes = {
 		merchants = 1
+		art_selling_efficiency = 0.1
 	}
 	efficient_mining = {
 		gold_depletion_chance_modifier = -0.25
@@ -983,11 +990,24 @@ exploration_ideas = {
 		trade_company_investment_cost = -0.1
 	}
 	free_colonies = {
-		colonist_placement_chance = 0.1
+		colonist_placement_chance = 0.025
+		settlers_loyalty_modifier = 0.05
 	}
 	global_empire = {
 		naval_forcelimit_modifier = 0.25
 		treasure_fleet_income = 0.25
+		effect = {
+			if = {
+				limit = {
+					has_country_flag = EE_IRE_ideas_give_modifiers_when_complete_and_free_policy
+				}
+				add_age_modifier = {
+					name = EE_IRE_Peacefull_Assimilation
+					duration = -1
+					age = age_of_reformation
+				}
+			}
+		}
 	}
 
 	ai_will_do = {
@@ -1114,6 +1134,19 @@ exploration_ideas = {
 			num_of_ports = 20
 		}
 		modifier = {
+			factor = 3
+			has_global_flag = EE_more_colonizers
+			has_institution = new_world_i
+		}
+		modifier = {
+			factor = 0 
+			has_global_flag = EE_america_filled_out
+		}
+		modifier = {
+			factor = 100
+			tag = NED
+		}
+		modifier = {
 			factor = 1000
 			OR = {
 				tag = POR
@@ -1145,6 +1178,7 @@ maritime_ideas = {
 	bonus = {
 		sea_repair = yes
 		movement_speed_in_fleet_modifier = 1 
+		monthly_naval_professionalism_power = 0.1
 	}
 
 	merchant_traditions = {
@@ -1425,7 +1459,7 @@ expansion_ideas = {
 		merchants = 1
 	}
 	faster_colonists = {
-		global_colonial_growth = 20
+		global_colonial_growth = 15
 	}
 	vice_roys  = {
 		global_tariffs = 0.10
@@ -1437,11 +1471,24 @@ expansion_ideas = {
 	}
 	general_colonization_law  = {
 		colonists = 1
-		colonist_placement_chance = 0.05
+		colonist_placement_chance = 0.025
 		effect = { remove_temporary_colonist = yes }
 	}
 	competetive_merchants  = {
 		global_trade_power = 0.2
+		
+		effect = {
+			if = {
+				limit = {
+					has_country_flag = EE_IRE_ideas_give_modifiers_when_complete_and_free_policy
+				}
+				add_age_modifier = {
+					name = EE_IRE_Four_Corners_World
+					duration = -1
+					age = age_of_reformation
+				}
+			}
+		}
 	}
 
 	ai_will_do = {
@@ -1487,6 +1534,10 @@ expansion_ideas = {
 				technology_group = eastern
 				technology_group = muslim
 			}
+		}
+		modifier = {
+			factor = 0 
+			has_global_flag = EE_america_filled_out
 		}
 	}
 }
@@ -1585,6 +1636,7 @@ humanist_ideas = {
 	}
 	cultural_ties = {
 		num_accepted_cultures = 2
+		art_selling_efficiency = 0.1
 	}
 	humanist_tolerance = {
 		tolerance_heathen = 2
@@ -1698,6 +1750,7 @@ naval_ideas = {
 	bonus = {
 		global_naval_barrage_cost = -1
 		disengagement_chance = 0.15
+		monthly_naval_professionalism_power = 0.1
 	}
 
 	boarding_parties = {
@@ -1795,6 +1848,8 @@ court_ideas = {
 	palace_of_splendor = {
 		monthly_splendor = 2 
 		estate_interaction_cooldown_modifier = -0.20
+		
+		art_selling_efficiency = 0.5
 	}
 	court_embassies = {
 		possible_dip_policy = 1 
