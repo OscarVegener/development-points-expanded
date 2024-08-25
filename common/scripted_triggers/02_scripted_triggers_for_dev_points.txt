@@ -16,42 +16,6 @@ is_in_any_colonial_region = {
 		colonial_region = colonial_la_plata
 		colonial_region = colonial_brazil
 		colonial_region = colonial_australia
-		
-		#These for for RNW the game hates these and crashes so RNW won't get bonuses
-		# colonial_region = colonial_placeholder_1
-		# colonial_region = colonial_placeholder_2
-		# colonial_region = colonial_placeholder_3
-		# colonial_region = colonial_placeholder_4
-		# colonial_region = colonial_placeholder_5
-		# colonial_region = colonial_placeholder_6
-		# colonial_region = colonial_placeholder_7
-		# colonial_region = colonial_placeholder_8
-		# colonial_region = colonial_placeholder_9
-		# colonial_region = colonial_placeholder_10
-		# colonial_region = colonial_placeholder_11
-		# colonial_region = colonial_placeholder_12
-		# colonial_region = colonial_placeholder_13
-		# colonial_region = colonial_placeholder_14
-		# colonial_region = colonial_placeholder_15
-		# colonial_region = colonial_placeholder_16
-		# colonial_region = colonial_placeholder_17
-		# colonial_region = colonial_placeholder_18
-		# colonial_region = colonial_placeholder_19
-		# colonial_region = colonial_placeholder_20
-		# colonial_region = colonial_placeholder_21
-		
-		#These are for new bt regions for some reason this is ok in vanilla
-		colonial_region = colonial_cascadia
-		colonial_region = colonial_northwest_territories
-		colonial_region = colonial_hudson_bay
-		colonial_region = colonial_newfoundland
-		colonial_region = colonial_acadia
-		colonial_region = colonial_cuba
-		colonial_region = colonial_hispaniola
-		colonial_region = colonial_bahamas
-		colonial_region = colonial_polynesia
-		colonial_region = colonial_cape
-		colonial_region = colonial_greenland
 	}
 }
 
