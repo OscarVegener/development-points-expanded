@@ -1911,7 +1911,7 @@ mercenary_ideas = {
 	}
 
 	ai_will_do = {
-		factor = 0
+		factor = 0.5
 	}
 }
 
