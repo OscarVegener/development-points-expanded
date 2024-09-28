@@ -18,5 +18,5 @@ dependencies={
 	"Expanded Family and EE Compatch"
 }
 name="Development Points Expanded"
-supported_version="v1.37.2.0"
+supported_version="v1.37.4.0"
 remote_file_id="3325530427"
