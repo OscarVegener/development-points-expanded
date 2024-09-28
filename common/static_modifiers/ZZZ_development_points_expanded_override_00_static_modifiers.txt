@@ -77,14 +77,6 @@ local_autonomy_trade_company_multiplicative = {
 	local_dev_points_modifier = -1.0 #BT Added for Dev Points. Needs to also be changed in dev_points_l_english.yml to actually update the GUI
 }
 
-# AI 'cheats' that compensate for flaws in its long-term decision making, removing these may severely cripple the AI
-ai_nation = {
-	diplomats = 1 							# ai has to reserve a diplomat for short term action so it gets an extra to put it on equal footing with player
-	free_leader_pool = 1					# ai needs to have enough pool for 1 general & 1 admiral
-	sailors_recovery_speed = 0.25
-	country_dev_points_modifier = 0.25 		#BT Added to ofset the ai not being able to expand  infrastructure. Consider removing when that is implimented.
-}
-
 stability = {
 	global_trade_power = 0.01			#1% chance each step.
 	global_spy_defence = 0.05				#-15 to +15% modifier
