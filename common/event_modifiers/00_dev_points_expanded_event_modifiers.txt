@@ -1,0 +1,63 @@
+farmlands_dev_point_generation = {
+  local_dev_points_modifier = 0.25
+}
+
+grasslands_dev_point_generation = {
+  local_dev_points_modifier = 0.20
+}
+
+woods_dev_point_generation = {
+  local_dev_points_modifier = 0.15
+}
+
+forest_dev_point_generation = {
+  local_dev_points_modifier = -0.1
+}
+
+hills_dev_point_generation = {
+  local_dev_points_modifier = 0.1
+}
+
+highlands_dev_point_generation = {
+  local_dev_points_modifier = -0.05
+}
+
+mountain_dev_point_generation = {
+  local_dev_points_modifier = -0.25
+}
+
+jungle_dev_point_generation = {
+  local_dev_points_modifier = -0.2
+}
+
+marsh_dev_point_generation = {
+  local_dev_points_modifier = -0.15
+}
+
+desert_dev_point_generation = {
+  local_dev_points_modifier = -0.3
+}
+
+coastal_desert_dev_point_generation = {
+  local_dev_points_modifier = -0.15
+}
+
+coastline_dev_point_generation = {
+  local_dev_points_modifier = 0.1
+}
+
+drylands_dev_point_generation = {
+  local_dev_points_modifier = 0.05
+}
+
+glacier_dev_point_generation = {
+  local_dev_points_modifier = -0.5
+}
+
+savannah_dev_point_generation = {
+  local_dev_points_modifier = 0.05
+}
+
+steppe_dev_point_generation = {
+  local_dev_points_modifier = 0.05
+}
