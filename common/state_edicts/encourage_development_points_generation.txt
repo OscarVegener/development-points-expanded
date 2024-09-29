@@ -13,7 +13,7 @@ encourage_development_points_generation = {
 		local_dev_points_modifier = 0.25
 	}
 	
-	color = {  244 184 12  }
+	color = {  134 146 227  }
 	
 	
 	ai_will_do = {
