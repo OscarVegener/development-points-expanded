@@ -2,6 +2,10 @@
 
 # country
 on_startup = {
+	if = {
+		limit = { ai = no NOT = { is_year = 1445 } }
+		country_event = { id = dev_points_expanded.1 days = 0 }
+	}
 	events = {
 		dev_points.3		#Event for all nations on startup to initialise all the dev points variables
 	}
