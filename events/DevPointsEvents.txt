@@ -840,3 +840,175 @@ country_event = {
 	# }
 # }
 	
+
+# Event that sets dev points modifiers for terrain
+country_event = { 					
+	id = dev_points_expanded.1
+	title = "dev_points_expanded.1.title"
+	desc = "dev_points_expanded.1.desc"
+	picture = ECONOMY_eventPicture
+	
+	is_triggered_only = yes
+	
+	hidden = yes
+    
+	trigger = {
+		NOT = { 
+			has_country_flag = dev_points_expanded_startup
+		}
+	}
+	
+	immediate = {
+		set_country_flag = dev_points_expanded_startup		#Sets flag so this event won't fire again for this nation
+		every_province = {
+			if = {
+				limit = { 
+					has_terrain = farmlands
+				}
+				add_permanent_province_modifier = { 
+					name = farmlands_dev_point_generation
+					duration = -1
+				}
+			}
+			if = {
+				limit = { 
+					has_terrain = grasslands
+				}
+				add_permanent_province_modifier = { 
+					name = grasslands_dev_point_generation
+					duration = -1
+				}
+			}
+			if = {
+				limit = { 
+					has_terrain = woods
+				}
+				add_permanent_province_modifier = { 
+					name = woods_dev_point_generation
+					duration = -1
+				}
+			}
+			if = {
+				limit = { 
+					has_terrain = forest
+				}
+				add_permanent_province_modifier = { 
+					name = forest_dev_point_generation
+					duration = -1
+				}
+			}
+			if = {
+				limit = { 
+					has_terrain = hills
+				}
+				add_permanent_province_modifier = { 
+					name = hills_dev_point_generation
+					duration = -1
+				}
+			}
+			if = {
+				limit = { 
+					has_terrain = highlands
+				}
+				add_permanent_province_modifier = { 
+					name = highlands_dev_point_generation
+					duration = -1
+				}
+			}
+			if = {
+				limit = { 
+					has_terrain = mountain
+				}
+				add_permanent_province_modifier = { 
+					name = mountain_dev_point_generation
+					duration = -1
+				}
+			}
+			if = {
+				limit = { 
+					has_terrain = jungle
+				}
+				add_permanent_province_modifier = { 
+					name = jungle_dev_point_generation
+					duration = -1
+				}
+			}
+			if = {
+				limit = { 
+					has_terrain = marsh
+				}
+				add_permanent_province_modifier = { 
+					name = marsh_dev_point_generation
+					duration = -1
+				}
+			}
+			if = {
+				limit = { 
+					has_terrain = desert
+				}
+				add_permanent_province_modifier = { 
+					name = desert_dev_point_generation
+					duration = -1
+				}
+			}
+			if = {
+				limit = { 
+					has_terrain = coastal_desert
+				}
+				add_permanent_province_modifier = { 
+					name = coastal_desert_dev_point_generation
+					duration = -1
+				}
+			}
+			if = {
+				limit = { 
+					has_terrain = coastline
+				}
+				add_permanent_province_modifier = { 
+					name = coastline_dev_point_generation
+					duration = -1
+				}
+			}
+			if = {
+				limit = { 
+					has_terrain = drylands
+				}
+				add_permanent_province_modifier = { 
+					name = drylands_dev_point_generation
+					duration = -1
+				}
+			}
+			if = {
+				limit = { 
+					has_terrain = glacier
+				}
+				add_permanent_province_modifier = { 
+					name = glacier_dev_point_generation
+					duration = -1
+				}
+			}
+			if = {
+				limit = { 
+					has_terrain = savannah
+				}
+				add_permanent_province_modifier = { 
+					name = savannah_dev_point_generation
+					duration = -1
+				}
+			}
+			if = {
+				limit = { 
+					has_terrain = steppe
+				}
+				add_permanent_province_modifier = { 
+					name = steppe_dev_point_generation
+					duration = -1
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = "dev_points_expanded.1.opta"
+	}
+}

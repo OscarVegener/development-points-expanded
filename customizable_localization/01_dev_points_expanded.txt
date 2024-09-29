@@ -1,0 +1,104 @@
+defined_text = {	#Terrain
+  name = DevPointsExpandedProvinceTerrain
+  text = {
+    localisation_key = dev_points_province_modifier_farmlands
+    trigger = {
+      has_terrain = farmlands
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_modifier_grasslands
+    trigger = {
+      has_terrain = grasslands
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_modifier_woods
+    trigger = {
+      has_terrain = woods
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_modifier_forest
+    trigger = {
+      has_terrain = forest
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_modifier_hills
+    trigger = {
+      has_terrain = hills
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_modifier_highlands
+    trigger = {
+      has_terrain = highlands
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_modifier_mountain
+    trigger = {
+      has_terrain = mountain
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_modifier_jungle
+    trigger = {
+      has_terrain = jungle
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_modifier_marsh
+    trigger = {
+      has_terrain = marsh
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_modifier_desert
+    trigger = {
+      has_terrain = desert
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_modifier_coastal_desert
+    trigger = {
+      has_terrain = coastal_desert
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_modifier_coastline
+    trigger = {
+      has_terrain = coastline
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_modifier_drylands
+    trigger = {
+      has_terrain = drylands
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_modifier_glacier
+    trigger = {
+      has_terrain = glacier
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_modifier_savannah
+    trigger = {
+      has_terrain = savannah
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_modifier_steppe
+    trigger = {
+      has_terrain = steppe
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {
+    }
+  }
+}
