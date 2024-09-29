@@ -1,0 +1,13 @@
+Development Points mod that is modified to be compatible with Expanded mod Family and Europa Expanded.
+
+For the minimal setup you need at least the following mods:
+- Europa Expanded
+- Trade Goods Expanded (from Expanded mod Family)
+- Flavour and Events Expanded (from Expanded mod Family)
+
+The mods above are added as required dependencies to steam workshop item.
+
+Confirmed to be working with all mods from Expanded mod Family and Europa Expanded as of 29/09/2024.
+
+Note that Europa Expanded and Expanded mod Family may have incompatibilities, I have another mod that fixes some of them: https://steamcommunity.com/sharedfiles/filedetails/?id=3307176154
+I didn't add this mod as a required dependency because it's possible that EE and Expanded mod Family will fix those incompatibilities in future, however I do recommend using it as of 29/09/2024.
