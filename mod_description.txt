@@ -1,4 +1,4 @@
-Development Points mod that is modified to be compatible with Expanded mod Family and Europa Expanded.
+Development Points mod that is modified to be compatible with Expanded mod Family ( https://steamcommunity.com/workshop/filedetails/?id=1626860092 ) and Europa Expanded ( https://steamcommunity.com/sharedfiles/filedetails/?id=2164202838 ).
 
 For the minimal setup you need at least the following mods:
 - Europa Expanded
@@ -7,7 +7,11 @@ For the minimal setup you need at least the following mods:
 
 The mods above are added as required dependencies to steam workshop item.
 
-Confirmed to be working with all mods from Expanded mod Family and Europa Expanded as of 29/09/2024.
+Confirmed to be working with all mods from Expanded mod Family and Europa Expanded as of 29/09/2024. 
 
-Note that Europa Expanded and Expanded mod Family may have incompatibilities, I have another mod that fixes some of them: https://steamcommunity.com/sharedfiles/filedetails/?id=3307176154
+Note that Europa Expanded and Expanded mod Family may have incompatibilities, I have another mod that fixes some of them: https://steamcommunity.com/sharedfiles/filedetails/?id=3307176154 
 I didn't add this mod as a required dependency because it's possible that EE and Expanded mod Family will fix those incompatibilities in future, however I do recommend using it as of 29/09/2024.
+
+
+04/10/2024
+Expanded mod Family recently released a completely new mod: Religions and Cultures Expanded ( https://steamcommunity.com/sharedfiles/filedetails/?id=3342969370 ). Keep in mind that I haven't tested whether it's compatible with Europa Expanded and this mod yet.
