@@ -34,6 +34,7 @@ marketplace = {
 
 	modifier = {
 		province_trade_power_modifier = 0.5
+		base_local_dev_points = 0.03
 	}
 	
 	build_trigger = {
@@ -145,6 +146,7 @@ canal_system = {
 	modifier = {
 		trade_value_modifier = 0.1
 		local_development_cost = -0.05
+		base_local_dev_points = 0.04
 	}
 	
 	#xorme_ai 
@@ -210,6 +212,7 @@ road_network = {
 		local_friendly_movement_speed = 0.2
 		province_trade_power_modifier = 0.2
 		allowed_num_of_buildings = 1
+		base_local_dev_points = 0.03
 	}
 	
 	#xorme_ai 
@@ -247,6 +250,7 @@ workshop = {
 	time = 12
 	modifier = {
 		local_production_efficiency = 0.75
+		base_local_dev_points = 0.02
 	}
 	
 	build_trigger = {
@@ -358,6 +362,7 @@ temple = {
 	time = 12
 	modifier = {
 		local_tax_modifier = 0.4
+		base_local_dev_points = 0.02
 	}
 	build_trigger = {
 		if = {
@@ -584,6 +589,7 @@ barracks = {
 	time = 12
 	modifier = {
 		local_manpower_modifier = 0.5
+		base_local_dev_points = 0.02
 	}
 	build_trigger = {
 		if = {
@@ -789,6 +795,7 @@ shipyard = {
 		local_ship_repair = 0.25
 		local_has_man_of_war = yes
 		local_has_galleass = yes
+		base_local_dev_points = 0.03
 	}
 	on_built = {
 		add_development_from_building = {
@@ -896,6 +903,7 @@ fort_15th = {
 	time = 30
 	modifier = {
 		fort_level = 2
+		base_local_dev_points = 0.02
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1078,6 +1086,7 @@ coastal_defence = {
 		blockade_force_required = 0.5
 		hostile_disembark_speed = 1.0
 		block_slave_raid = yes
+		base_local_dev_points = 0.02
 	}
 
 	ai_will_do = {
@@ -1101,6 +1110,7 @@ courthouse = {
 		local_autonomy = -0.1
 		local_governing_cost = -0.25
 		allowed_num_of_buildings = 1
+		base_local_dev_points = 0.04
 	}
 	build_trigger = {
 		if = {
@@ -1209,6 +1219,7 @@ dock = {
 		local_sailors_modifier = 0.5
 		local_has_man_of_war = yes
 		local_has_galleass = yes
+		base_local_dev_points = 0.02
 	}
 	
 	on_built = {
@@ -1303,6 +1314,7 @@ regimental_camp = {
 	time = 12
 	modifier = {
 		land_forcelimit = 1
+		base_local_dev_points = 0.02
 	}
 
 #	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1409,6 +1421,7 @@ fort_16th = {
 	make_obsolete = fort_15th
 	modifier = {
 		fort_level = 4
+		base_local_dev_points = 0.04
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -1559,6 +1572,7 @@ naval_battery = {
 		hostile_disembark_speed = 2.0
 		hostile_fleet_attrition = 5
 		block_slave_raid = yes
+		base_local_dev_points = 0.04
 	}
 
 	ai_will_do = {
@@ -1577,6 +1591,7 @@ cathedral = {
 	modifier = {
 		local_missionary_strength = 0.03
 		local_tax_modifier = 0.6
+		base_local_dev_points = 0.05
 	}
 	on_built = {
 		on_built_tax_building_effect = yes
@@ -1721,6 +1736,7 @@ university = {
 	modifier = {
 		local_development_cost = -0.20
 		allowed_num_of_buildings = 1
+		base_local_dev_points = 0.08
 	}
 
 	on_built = {
@@ -1815,6 +1831,7 @@ trade_depot = {
 
 	modifier = {
 		province_trade_power_modifier = 1
+		base_local_dev_points = 0.06
 	}
 
 	on_built = {
@@ -1856,6 +1873,7 @@ grand_shipyard = {
 		local_ship_repair = 0.50
 		local_has_man_of_war = yes
 		local_has_galleass = yes
+		base_local_dev_points = 0.06
 	}
 
 	on_built = {
@@ -1925,6 +1943,7 @@ training_fields = {
 
 	modifier = {
 		local_manpower_modifier = 1
+		base_local_dev_points = 0.04
 	}
 	
 	on_built = {
@@ -2026,6 +2045,7 @@ fort_17th = {
 
 	modifier = {
 		fort_level = 6
+		base_local_dev_points = 0.06
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -2177,6 +2197,7 @@ stock_exchange = {
 
 	modifier = {
 		province_trade_power_modifier = 1.25
+		base_local_dev_points = 0.09
 	}
 
 	on_built = {
@@ -2234,6 +2255,7 @@ counting_house = {
 	make_obsolete = workshop
 	modifier = {
 		local_production_efficiency = 1.25
+		base_local_dev_points = 0.06
 	}
 
 	on_built = {
@@ -2276,6 +2298,7 @@ town_hall = {
 		local_autonomy = -0.2
 		local_governing_cost = -0.5
 		allowed_num_of_buildings = 1
+		base_local_dev_points = 0.08
 	}
 
 	on_built = {
@@ -2386,6 +2409,7 @@ drydock = {
 		local_sailors_modifier = 1.0
 		local_has_man_of_war = yes
 		local_has_galleass = yes
+		base_local_dev_points = 0.04
 	}
 	
 	on_built = {
@@ -2466,6 +2490,7 @@ conscription_center = {
 
 	modifier = {
 		land_forcelimit = 2
+		base_local_dev_points = 0.04
 	}
 	on_built = {
 		add_development_from_upgrading_or_building = {
@@ -2556,6 +2581,7 @@ fort_18th = {
 
 	modifier = {
 		fort_level = 8
+		base_local_dev_points = 0.08
 	}
 
 	# THIS = Province, FROM = Builder(not nessecairly owner, can be overlord)
@@ -2702,6 +2728,7 @@ manufactory = {
 	time = 60
 	modifier = {
 		trade_goods_size = 1.0
+		base_local_dev_points = 0.1
 	}
 }
 
@@ -3101,6 +3128,7 @@ furnace = {
 
 	modifier = {
 		global_trade_goods_size_modifier = 0.025 #National Bonus
+		base_local_dev_points = 0.15
 	}
 	onmap = yes
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
@@ -3138,6 +3166,7 @@ ramparts = {
 		local_hostile_attrition = 1
 		local_defensiveness = 0.15
 		local_defender_dice_roll_bonus = 1
+		base_local_dev_points = 0.05
 	}
 	onmap = no
 	show_separate = yes # Means as a manufactory it will be shown according to the old way
@@ -3210,6 +3239,7 @@ soldier_households = {
 
 	modifier = {
 		local_manpower = 0.75
+		base_local_dev_points = 0.075
 	}
 	bonus_modifier = {
 		local_manpower = 0.75
@@ -3287,6 +3317,7 @@ impressment_offices = {
 		local_sailors = 250
 		ship_recruit_speed = -0.1
 		local_ship_cost = -0.05
+		base_local_dev_points = 0.075
 	}
 	bonus_modifier = {
 		local_sailors = 250
@@ -3381,6 +3412,7 @@ state_house = {
 		local_governing_cost = -0.15
 		local_governing_cost_increase = -10
 		allowed_num_of_buildings = 1
+		base_local_dev_points = 0.12
 	}
 	bonus_modifier = {
 		statewide_governing_cost = -0.2
