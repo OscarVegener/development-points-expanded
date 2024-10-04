@@ -1,0 +1,394 @@
+defined_text = {	#Has workshop family buildings
+  name = DevPointsProvinceHasProductionBuilding
+  text = {
+    localisation_key = dev_points_province_base_has_workshop
+    trigger = {
+      has_building = workshop
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_counting_house
+    trigger = {
+      has_building = counting_house
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+defined_text = {	#Has church family buildings
+  name = DevPointsProvinceHasChurchBuilding
+  text = {
+    localisation_key = dev_points_province_base_has_temple
+    trigger = {
+      has_building = temple
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_cathedral
+    trigger = {
+      has_building = cathedral
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+defined_text = {	#Has barracks family buildings
+  name = DevPointsProvinceHasBarracksBuilding
+  text = {
+    localisation_key = dev_points_province_base_has_barracks
+    trigger = {
+      has_building = barracks
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_training_fields
+    trigger = {
+      has_building = training_fields
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+defined_text = {	#Has marketplace family buildings
+    name = DevPointsProvinceHasTradeBuilding
+    text = {
+      localisation_key = dev_points_province_base_has_marketplace
+      trigger = {
+        has_building = marketplace
+      }
+    }
+    text = {
+      localisation_key = dev_points_province_base_has_trade_depot
+      trigger = {
+        has_building = trade_depot
+      }
+    }
+    text = {
+      localisation_key = dev_points_province_base_has_stock_exchange
+      trigger = {
+        has_building = stock_exchange
+      }
+    }
+    text = {
+      localisation_key = dev_points_empty_string
+      trigger = {}
+    }
+}
+
+defined_text = { # Has University building
+  name = DevPointsProvinceHasUniversity
+  text = {
+    localisation_key = dev_points_province_base_has_university
+    trigger = {
+      has_building = university
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+defined_text = { # Has Shipyard family buildings
+  name = DevPointsProvinceHasShipyardBuilding
+  text = {
+    localisation_key = dev_points_province_base_has_shipyard
+    trigger = {
+      has_building = shipyard
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_grand_shipyard
+    trigger = {
+      has_building = grand_shipyard
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+
+###################
+# Regimental camp #
+###################
+
+
+defined_text = { # Has regimental camp family buildings
+  name = DevPointsProvinceHasRegimentalCampBuilding
+  text = {
+    localisation_key = dev_points_province_base_has_regimental_camp
+    trigger = {
+      has_building = regimental_camp
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_conscription_center
+    trigger = {
+      has_building = conscription_center
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+
+########
+# Dock #
+########
+
+
+defined_text = { # Has dock family buildings
+  name = DevPointsProvinceHasDockBuilding
+  text = {
+    localisation_key = dev_points_province_base_has_dock
+    trigger = {
+      has_building = dock
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_drydock
+    trigger = {
+      has_building = drydock
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+
+##############
+# Courthouse #
+##############
+
+
+defined_text = { # Has court house family buildings
+  name = DevPointsProvinceHasCourtHouseBuilding
+  text = {
+    localisation_key = dev_points_province_base_has_courthouse
+    trigger = {
+      has_building = courthouse
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_town_hall
+    trigger = {
+      has_building = town_hall
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+
+###################
+# Coastal defence #
+###################
+
+
+
+defined_text = { # Has coastal defence family buildings
+  name = DevPointsProvinceHasCoastalDefenceBuilding
+  text = {
+    localisation_key = dev_points_province_base_has_coastal_defence
+    trigger = {
+      has_building = coastal_defence
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_naval_battery
+    trigger = {
+      has_building = naval_battery
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+
+#################
+# Forts         #
+#################
+
+
+defined_text = { # Has Fort family buildings
+  name = DevPointsProvinceHasFortBuilding
+  text = {
+    localisation_key = dev_points_province_base_has_fort_15th
+    trigger = {
+      has_building = fort_15th
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_fort_16th
+    trigger = {
+      has_building = fort_16th
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_fort_17th
+    trigger = {
+      has_building = fort_17th
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_fort_18th
+    trigger = {
+      has_building = fort_18th
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+
+#################
+# Manufactories #
+#################
+
+
+defined_text = {	#Has Furnace Manufactory building
+  name = DevPointsProvinceHasFurnaceManufactory
+
+  text = {
+    localisation_key = dev_points_province_base_has_furnace
+    trigger = {
+      has_building = furnace
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+defined_text = {	#Has production manufactory family buildings
+  name = DevPointsProvinceHasProductionManufactory
+
+  text = {
+    localisation_key = dev_points_province_base_has_naval_equipment_m
+    trigger = {
+      has_building = wharf
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_weapons_m
+    trigger = {
+      has_building = weapons
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_textile_m
+    trigger = {
+      has_building = textile
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_plantation
+    trigger = {
+      has_building = plantations
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_trade_station
+    trigger = {
+        has_building = tradecompany
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_farm_estate
+    trigger = {
+      has_building = farm_estate
+    }
+  }
+  text = {
+    localisation_key = dev_points_province_base_has_mill
+    trigger = {
+      has_building = mills
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+defined_text = {	#Has Ramparts Manufactory building
+  name = DevPointsProvinceHasRampartsManufactory
+
+  text = {
+    localisation_key = dev_points_province_base_has_ramparts
+    trigger = {
+      has_building = ramparts
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+defined_text = {	#Has Soldier Households Manufactory building
+  name = DevPointsProvinceHasSoldierHouseholdsManufactory
+
+  text = {
+    localisation_key = dev_points_province_base_has_soldier_households
+    trigger = {
+      has_building = soldier_households
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+defined_text = {	#Has Impressment Offices Manufactory building
+  name = DevPointsProvinceHasImpressmentOfficesManufactory
+
+  text = {
+    localisation_key = dev_points_province_base_has_impressment_offices
+    trigger = {
+      has_building = impressment_offices
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+defined_text = {	#Has State House Manufactory building
+  name = DevPointsProvinceHasStateHouseManufactory
+
+  text = {
+    localisation_key = dev_points_province_base_has_state_house
+    trigger = {
+      has_building = state_house
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
