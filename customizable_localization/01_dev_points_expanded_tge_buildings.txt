@@ -1,0 +1,69 @@
+defined_text = {	#Has Road Network building
+  name = DevPointsProvinceHasRoadNetworkBuilding
+  text = {
+    localisation_key = dev_points_province_base_has_road_network
+    trigger = {
+      has_building = road_network
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+defined_text = {	#Has Canal System building
+  name = DevPointsProvinceHasCanalSystemBuilding
+  text = {
+    localisation_key = dev_points_province_base_has_canal_system
+    trigger = {
+      has_building = canal_system
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+defined_text = { # Has Spy Agency building
+  name = DevPointsProvinceHasSpyAgency
+  text = {
+    localisation_key = dev_points_province_base_has_spy_agency
+    trigger = {
+      has_building = spy_agency
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+defined_text = { # Has Armory building
+  name = DevPointsProvinceHasArmory
+  text = {
+    localisation_key = dev_points_province_base_has_armory
+    trigger = {
+      has_building = armory
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
+
+defined_text = { # Has Post Office building
+  name = DevPointsProvinceHasPostOffice
+  text = {
+    localisation_key = dev_points_province_base_has_post_office
+    trigger = {
+      has_building = post_office
+    }
+  }
+  text = {
+    localisation_key = dev_points_empty_string
+    trigger = {}
+  }
+}
