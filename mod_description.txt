@@ -15,3 +15,11 @@ I didn't add this mod as a required dependency because it's possible that EE and
 
 04/10/2024
 Expanded mod Family recently released a completely new mod: Religions and Cultures Expanded ( https://steamcommunity.com/sharedfiles/filedetails/?id=3342969370 ). Keep in mind that I haven't tested whether it's compatible with Europa Expanded and this mod yet.
+
+EE/TGE/Mod Family versions only:
+
+- Europa Expanded only: https://steamcommunity.com/sharedfiles/filedetails/?id=3344925456
+- Trade Goods Expanded only: https://steamcommunity.com/sharedfiles/filedetails/?id=3344914296
+- Expanded mod Family only: https://steamcommunity.com/sharedfiles/filedetails/?id=3344923660
+
+All mods are organized in this collection: https://steamcommunity.com/sharedfiles/filedetails/?id=3344929107
