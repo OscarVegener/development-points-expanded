@@ -1,17 +1,5 @@
-Development Points mod that is modified to be compatible with Expanded mod Family ( https://steamcommunity.com/workshop/filedetails/?id=1626860092 ) and Europa Expanded ( https://steamcommunity.com/sharedfiles/filedetails/?id=2164202838 ).
+Expanded mod Family ( https://steamcommunity.com/workshop/filedetails/?id=1626860092 ) only version of the Development Points Expanded mod ( https://steamcommunity.com/sharedfiles/filedetails/?id=3325530427 ).
 
-For the minimal setup you need at least the following mods:
-- Europa Expanded
-- Trade Goods Expanded (from Expanded mod Family)
-- Flavour and Events Expanded (from Expanded mod Family)
+NOTE! As of 07/10/2024 all mods from Expanded mod Family (see the link above) are compatible except for Religions and Cultures Expanded. I will be working on a compatibility patch for that mod soon.
 
-The mods above are added as required dependencies to steam workshop item.
-
-Confirmed to be working with all mods from Expanded mod Family and Europa Expanded as of 29/09/2024. 
-
-Note that Europa Expanded and Expanded mod Family may have incompatibilities, I have another mod that fixes some of them: https://steamcommunity.com/sharedfiles/filedetails/?id=3307176154 
-I didn't add this mod as a required dependency because it's possible that EE and Expanded mod Family will fix those incompatibilities in future, however I do recommend using it as of 29/09/2024.
-
-
-04/10/2024
-Expanded mod Family recently released a completely new mod: Religions and Cultures Expanded ( https://steamcommunity.com/sharedfiles/filedetails/?id=3342969370 ). Keep in mind that I haven't tested whether it's compatible with Europa Expanded and this mod yet.
+For more information about the mod, please visit the main mod page: https://steamcommunity.com/sharedfiles/filedetails/?id=3325530427
